@@ -1,6 +1,7 @@
 <script setup>
 import WelcomeItem from './WelcomeItem.vue'
 import Count from './Count.vue'
+import ComputedProperty from './ComputedProperty.vue'
 import DocumentationIcon from './icons/IconDocumentation.vue'
 import ToolingIcon from './icons/IconTooling.vue'
 import EcosystemIcon from './icons/IconEcosystem.vue'
@@ -10,6 +11,7 @@ import SupportIcon from './icons/IconSupport.vue'
 
 <template>
   <Count></Count>
+  <ComputedProperty></ComputedProperty>
   <WelcomeItem>
     <template #icon>
       <DocumentationIcon />
