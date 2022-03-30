@@ -3,6 +3,7 @@ import WelcomeItem from './WelcomeItem.vue'
 import Count from './Count.vue'
 import ComputedProperty from './ComputedProperty.vue'
 import ClassAndStyleBinding from './ClassAndStyleBinding.vue'
+import ConditionalRendering from './ConditionalRendering.vue'
 import DocumentationIcon from './icons/IconDocumentation.vue'
 import ToolingIcon from './icons/IconTooling.vue'
 import EcosystemIcon from './icons/IconEcosystem.vue'
@@ -14,6 +15,7 @@ import SupportIcon from './icons/IconSupport.vue'
   <Count></Count>
   <ComputedProperty></ComputedProperty>
   <ClassAndStyleBinding></ClassAndStyleBinding>
+  <ConditionalRendering></ConditionalRendering>
   <WelcomeItem>
     <template #icon>
       <DocumentationIcon />
