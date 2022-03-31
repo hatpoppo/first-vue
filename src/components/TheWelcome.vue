@@ -5,6 +5,8 @@ import ComputedProperty from './ComputedProperty.vue'
 import ClassAndStyleBinding from './ClassAndStyleBinding.vue'
 import ConditionalRendering from './ConditionalRendering.vue'
 import ListRendering from './ListRendering.vue'
+import EventHandring from './EventHandring.vue'
+import FormInputBinding from './FormInputBinding.vue'
 import DocumentationIcon from './icons/IconDocumentation.vue'
 import ToolingIcon from './icons/IconTooling.vue'
 import EcosystemIcon from './icons/IconEcosystem.vue'
@@ -18,7 +20,8 @@ import SupportIcon from './icons/IconSupport.vue'
   <ClassAndStyleBinding></ClassAndStyleBinding>
   <ConditionalRendering></ConditionalRendering>
   <ListRendering></ListRendering>
-
+  <EventHandring></EventHandring>
+  <FormInputBinding></FormInputBinding>
   <WelcomeItem>
     <template #icon>
       <DocumentationIcon />
