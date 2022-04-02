@@ -8,6 +8,7 @@ import ListRendering from './ListRendering.vue'
 import EventHandring from './EventHandring.vue'
 import FormInputBinding from './FormInputBinding.vue'
 import LifecycleHooks from './LifecycleHooks.vue'
+import Watchers from './Watchers.vue'
 import DocumentationIcon from './icons/IconDocumentation.vue'
 import ToolingIcon from './icons/IconTooling.vue'
 import EcosystemIcon from './icons/IconEcosystem.vue'
@@ -24,6 +25,7 @@ import SupportIcon from './icons/IconSupport.vue'
   <EventHandring></EventHandring>
   <FormInputBinding></FormInputBinding>
   <LifecycleHooks></LifecycleHooks>
+  <Watchers></Watchers>
   <WelcomeItem>
     <template #icon>
       <DocumentationIcon />
