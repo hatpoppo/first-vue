@@ -124,5 +124,6 @@ import SupportIcon from './icons/IconSupport.vue'
 <style>
 .parts {
   border: 1px solid black;
+  margin: 2px;
 }
 </style>
