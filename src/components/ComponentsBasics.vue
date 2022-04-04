@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from "vue";
 import BlogPost from './BlogPost.vue'
+import AlertBox from './AlertBox.vue'
 
 const posts = ref([
   { id: 1, title: 'My Page' },
@@ -20,5 +21,6 @@ const postFontSize = ref(1)
         @enlarge-text="postFontSize += 0.1"
       />
     </div>
+    <AlertBox>Something bad happened.</AlertBox>
   </div>
 </template>
